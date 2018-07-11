@@ -68,9 +68,19 @@ body{
 	color: #fff;
 	border-color: #ed145b;
 }
+.btn-rosa:hover{
+	background-color: transparent;
+	color: #ed145b;
+	border-color: #ed145b;
+}
 .btn-rosa-borda{
 	background-color: transparent;
 	color: #ed145b;
+	border-color: #ed145b;
+}
+.btn-rosa-borda:hover{
+	background-color: #ed145b;
+	color: #fff;
 	border-color: #ed145b;
 }
 .btn-transparent{
@@ -93,4 +103,28 @@ body{
 }
 .form-custom::-moz-placeholder {
 	text-align: center;
+}
+.fixed-custom {
+	display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1030;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    -webkit-transition:.150s;
+    transition:.150s;
+}
+.lista-presenca{
+	color: #fff;
+	background-color: #ed145b; 
+	background-image: url('../img/background-coracoes.png');
+	background-position: center center;
+    background-repeat: repeat;
+    background-attachment: ;
+    background-size: cover;
+}
+.caixa{
+	width: 30%;
+	margin:0 35%;
 }

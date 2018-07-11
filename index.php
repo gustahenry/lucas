@@ -1,18 +1,5 @@
-<!doctype html>
-<html lang="pt-br">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
-
-    <title>Lucas e Amanda</title>
-  </head>
-  <body>
+<?php require_once('header.php') ?>
+<<body>
 
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -21,7 +8,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto ml-auto">
+        <ul class="navas navbar-nav mr-auto ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#home">HOME</a>
           </li>
@@ -104,7 +91,7 @@
   </div>
 
   <div class="historia text-center my-5" id="historia">
-    <div class="text-center mb-5">
+    <div class="text-center mb-4">
       <h2>NOSSA HISTORIA</h2>
       <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -152,7 +139,7 @@
     </div>
      <div class="row justify-content-center">
     <div class="col-4">
-      Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+      Somos duas pessoas que se conheceram em uma noite de boliche e ali Deus já começava a agir e colocar os Seus Planos em prática. Desde então uma amizade nasceu e começamos a nos conhecer e perceber algumas coisas em comum. Ele brincalhão e ela também, eis que surge a vontade de querer estar mais próximos, o desejo de se conhecer mais e mais. Oraram, confiaram, e hoje estão construindo o início de uma vida juntos. O Senhor nos fez e depois nos uniu de uma maneira tão fantástica que nem somos capazes de entender como tudo se deu. E sendo assim, fez com que tivéssemos mais vida e alegria em nossas vidas.
     </div>
   </div>
   </div>
@@ -220,7 +207,6 @@
   <div class="lista my-5" id="lista">
     <div class="text-center mb-5">
       <h2>LISTA DE DESEJOS</h2>
-      <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    viewBox="0 0 470.9 54.2" style="enable-background:new 0 0 470.9 54.2; width: 15rem;" xml:space="preserve">
@@ -316,12 +302,4 @@
     </div>
   </div>
   
-
-   <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="assets/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="assets/js/jquery.countdown.js"></script>
-  </body>
-</html>
+<?php require_once('footer.php') ?>
