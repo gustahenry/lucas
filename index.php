@@ -1,5 +1,5 @@
 <?php require_once('header.php') ?>
-<<body>
+<body>
 
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
