@@ -2,10 +2,10 @@
 <body>
 
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+     <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar-example">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navas navbar-nav mr-auto ml-auto">
@@ -30,13 +30,32 @@
   </div>
 
   <div class="home" id="home">
-    <img style="width: 30rem; margin-top: 7rem; margin-left: 37rem;" src="assets/img/lucas-e-amanda.svg" alt="">
+    <img class="img-fluid" style="width: 30rem; margin-top: 7rem; margin-left: 37rem;" src="assets/img/lucas-e-amanda.svg" alt="">
   </div>
-
   <div class="data text-center py-5">
+  <div class="container">
     <h3>FALTAM APENAS</h3>
+    
+    <div class="row justify-content-center number">
+      <div class="col-sm-12 col-md-2">
+        <div id="days"></div>
+        <p class="info">DIAS</p>
+      </div>
+      <div class="col-sm-12 col-md-2">
+        <div id="hours"></div>
+        <p class="info">HORAS</p>
+      </div>
+      <div class="col-sm-12 col-md-2">
+        <div id="minutes"></div>
+        <p class="info">MINUTOS</p>
+      </div>
+      <div class="col-sm-12 col-md-2">
+        <div id="seconds"></div>
+        <p class="info">SEGUNDOS</p>
+      </div>
+    </div>
 
-    <table class="countdownContainer mx-auto text-center">
+    <!--<table class="countdownContainer mx-auto text-center">
       <tr class="number">
         <td class="count-margin" id="days">120</td>
         <td class="count-margin" id="hours">4</td>
@@ -49,7 +68,7 @@
         <td>MINUTOS</td>
         <td>SEGUNDOS</td>
       </tr>
-    </table>
+    </table>-->
 
     <script type="text/javascript">
 
@@ -89,9 +108,12 @@
     </script>
     
   </div>
+  </div>
+  
 
   <div class="historia text-center my-5" id="historia">
-    <div class="text-center mb-4">
+    <div class="container">
+      <div class="text-center mb-4">
       <h2>NOSSA HISTORIA</h2>
       <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -138,10 +160,12 @@
 </svg>
     </div>
      <div class="row justify-content-center">
-    <div class="col-4">
+    <div class="col-md-4 col-sm-12">
       Somos duas pessoas que se conheceram em uma noite de boliche e ali Deus já começava a agir e colocar os Seus Planos em prática. Desde então uma amizade nasceu e começamos a nos conhecer e perceber algumas coisas em comum. Ele brincalhão e ela também, eis que surge a vontade de querer estar mais próximos, o desejo de se conhecer mais e mais. Oraram, confiaram, e hoje estão construindo o início de uma vida juntos. O Senhor nos fez e depois nos uniu de uma maneira tão fantástica que nem somos capazes de entender como tudo se deu. E sendo assim, fez com que tivéssemos mais vida e alegria em nossas vidas.
     </div>
   </div>
+    </div>
+    
   </div>
 
   <div class="fotos mb-5" id="fotos">
@@ -152,16 +176,16 @@
   </div>
 <div class="container">
   <div class="row">
-    <div class="col-4" style="margin-top: 1.8rem;">
+    <div class="col-md-4 col-sm-12" style="margin-top: 1.8rem;">
       <img class="img-fluid my-3" src="assets/img/miniatura-foto-2.png" alt="">
       <img class="img-fluid my-3" src="assets/img/miniatura-foto-3.png" alt="">
       <img class="img-fluid my-3" src="assets/img/miniatura-foto-8.png" alt="">
     </div>
-    <div class="col-4">
+    <div class="col-md-4 col-sm-12">
       <img class="img-fluid my-3" src="assets/img/miniatura-foto-6.png" alt="">
       <img class="img-fluid my-3" src="assets/img/miniatura-foto-7.png" alt="">
     </div>
-    <div class="col-4" style="margin-top: 1.8rem;">
+    <div class="col-md-4 col-sm-12" style="margin-top: 1.8rem;">
       <img class="img-fluid my-3" src="assets/img/miniatura-foto-4.png" alt="">
       <img class="img-fluid my-3" src="assets/img/miniatura-foto-5.png" alt="">
       <img class="img-fluid my-3" src="assets/img/miniatura-foto-1.png" alt="">
@@ -177,7 +201,7 @@
 
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
           <form method="post" action="adiciona.php">
             <div class="form-group">
               <input type="text" class="form-control form-custom" id="convidado" name="convidado" placeholder="NOME COMPLETO">
@@ -195,8 +219,8 @@
               <input type="text" class="form-control form-custom" id="convidado5" name="convidado5" placeholder="NOME COMPLETO">
             </div>
             <div class="row">
-              <div class="col-6"><button type="button" class="btn btn-primary form-control btn-transparent">ADICIONAR CONVIDADOS</button></div>
-              <div class="col-6"><button type="submit" class="btn btn-primary form-control btn-custom">ENVIAR</button></div>
+               <div class="col-md-6 col-sm-12 my-1"><button type="button" class="btn btn-primary form-control btn-transparent">ADICIONAR CONVIDADOS</button></div>
+              <div class="col-md-6 col-sm-12 my-1"><button type="submit" class="btn btn-primary form-control btn-custom">ENVIAR</button></div>
             </div>   
           </form>
         </div>
@@ -205,7 +229,8 @@
 </div>
 
   <div class="lista my-5" id="lista">
-    <div class="text-center mb-5">
+    <div class="container">
+      <div class="text-center mb-5">
       <h2>LISTA DE DESEJOS</h2>
 <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -259,7 +284,7 @@
       </div>
       
       <div class="row">
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12 my-2">
         <p class="text-center">LISTA DE DESEJOS - PONTO FRIO</p>
         <a href="https://www.pontofrio.com.br/"><img class="img-fluid" src="assets/img/logo-ponto-frio.png" alt=""></a>
         
@@ -268,7 +293,7 @@
         </div>
         
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12 my-2">
         <p class="text-center">LISTA DE DESEJOS - CASAS BAHIA</p>
         <a href="https://www.casasbahia.com.br/"><img class="img-fluid" src="assets/img/logo-casas-bahia.png" alt=""></a>
         
@@ -276,7 +301,7 @@
           <a class="btn btn-primary btn-rosa form-control" href="https://www.casasbahia.com.br/" role="button">IR A LOJA</a>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 col-sm-12 my-2">
         <p class="text-center">LISTA DE DESEJOS - EXTRA</p>
         <a href="https://www.extra.com.br/"><img class="img-fluid" src="assets/img/logo-extra.png" alt=""></a>
         
@@ -284,6 +309,7 @@
           <a class="btn btn-primary btn-rosa-borda form-control" href="https://www.extra.com.br/" role="button">IR A LOJA</a>
         </div>
       </div>
+    </div>
     </div>
     
     </div>
