@@ -55,21 +55,6 @@
       </div>
     </div>
 
-    <!--<table class="countdownContainer mx-auto text-center">
-      <tr class="number">
-        <td class="count-margin" id="days">120</td>
-        <td class="count-margin" id="hours">4</td>
-        <td class="count-margin" id="minutes">12</td>
-        <td class="count-margin" id="seconds">22</td>
-      </tr>
-      <tr class="info">
-        <td>DIAS</td>
-        <td>HORAS</td>
-        <td>MINUTOS</td>
-        <td>SEGUNDOS</td>
-      </tr>
-    </table>-->
-
     <script type="text/javascript">
 
       function countdown(){

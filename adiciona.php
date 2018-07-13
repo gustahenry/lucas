@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost';
-$user = 'root';
+$host = 'mysql.hostinger.com.br';
+$user = 'u805018327_prese';
 $pass = '10019266';
-$db   = 'casamento';
+$db   = 'u805018327_prese';
 
 $con = mysqli_connect($host, $user, $pass, $db);
 
