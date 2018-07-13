@@ -1,4 +1,6 @@
-<?php require_once('header.php');?>
+<?php require_once('header.php');
+require_once('database.php');
+?>
 <body class="lista-presenca">
 <div class="container">
 	<div class="caixa">
@@ -10,9 +12,12 @@
 		    </tr>
 		  </thead>
 		  <tbody>
-		    <tr>
-		      <td>Larry</td>
-		    </tr>
+		  	<?php
+		  	$sql = "select * from lista";
+			$res = mysqli_query($con,$sql);
+		  	while($f = mysqli_fetch_array($res)){
+		  	echo "<tr><td>" . $f['nome'] . "</td></tr>";
+			}?>
 		  </tbody>
 		</table>
 	</div>
