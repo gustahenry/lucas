@@ -7,7 +7,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="navas navbar-nav mr-auto ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#home">HOME</a>
@@ -27,6 +27,7 @@
         </ul>
       </div>
     </nav>
+
   </div>
 
   <div class="home" id="home">
@@ -185,13 +186,21 @@
     </div>
 
     <div class="container">
+      
+              <?php
+                $msg = $_GET['msg'];
+                if($msg=='sucesso'){echo '<p class="text-white font-weight-bold text-center">Sua presença foi confirmada.</p>';}
+                if($msg=='erro'){echo '<p class="text-white font-weight-bold text-center">Não conseguimos confirmar a sua presença, tente novamente.</p>';}
+              ?>
+
       <div class="row justify-content-center">
         <div class="col-md-6 col-sm-12">
           <form method="post" action="adiciona.php">
-            <div class="form-group">
-              <input type="text" class="form-control form-custom" id="convidado" name="convidado" placeholder="NOME COMPLETO">
-            </div>
-            <div class="form-group">
+            <div id="form">
+              <div class="form-group" id="campo">
+                <input type="text" class="form-control form-custom" id="convidado" name="convidado" placeholder="NOME COMPLETO">
+              </div>
+               <div class="form-group">
               <input type="text" class="form-control form-custom" id="convidado2" name="convidado2" placeholder="NOME COMPLETO">
             </div>
             <div class="form-group">
@@ -203,8 +212,10 @@
             <div class="form-group">
               <input type="text" class="form-control form-custom" id="convidado5" name="convidado5" placeholder="NOME COMPLETO">
             </div>
+            </div>
+            
             <div class="row">
-               <div class="col-md-6 col-sm-12 my-1"><button type="button" class="btn btn-primary form-control btn-transparent">ADICIONAR CONVIDADOS</button></div>
+               <div class="col-md-6 col-sm-12 my-1"><button type="button" onclick="adiciona()" class="btn btn-primary form-control btn-transparent" id="novo">ADICIONAR CONVIDADOS</button></div>
               <div class="col-md-6 col-sm-12 my-1"><button type="submit" class="btn btn-primary form-control btn-custom">ENVIAR</button></div>
             </div>   
           </form>

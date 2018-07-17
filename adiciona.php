@@ -8,9 +8,9 @@ foreach ($convidados as $convidado) {
 	if(!empty($convidado)){
 	$sql = "INSERT INTO lista (nome) VALUES ('{$convidado}')";
 		if ($con->query($sql)){
-			header("location: index.php");
+			header("location: index.php?msg=sucesso#presenca");
 		}else{
-			header("location: index.php?msg=erro");
+			header("location: index.php?msg=erro#presenca");
 		}
 
 	}

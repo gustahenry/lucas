@@ -21,3 +21,10 @@ $('.navas a[href^="#"]').on('click', function(e) {
       $("html, body").animate({scrollTop: 0 }, 600); 
       return false;
  });
+
+ function adiciona(){
+  var campo = document.getElementById("campo");
+    var cln = campo.cloneNode(true);
+    document.getElementById("form").appendChild(cln);
+
+ };
