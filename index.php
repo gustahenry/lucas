@@ -63,7 +63,7 @@
 
       function countdown(){
         var now = new Date();
-        var eventDate = new Date(2018, 08, 14);
+        var eventDate = new Date(2018, 07, 24);
 
         var currentTiime = now.getTime();
         var eventTime = eventDate.getTime();
@@ -290,7 +290,7 @@
             
             <div class="row">
                <div class="col-md-6 col-sm-12 my-1"><button type="button" onclick="adiciona()" class="btn btn-primary form-control btn-transparent" id="novo">ADICIONAR CONVIDADOS</button></div>
-              <div class="col-md-6 col-sm-12 my-1"><button type="submit" class="btn btn-primary form-control btn-custom">ENVIAR</button></div>
+              <div class="col-md-6 col-sm-12 my-1"><button type="submit" class="btn btn-primary form-control btn-transparent">ENVIAR</button></div>
             </div>   
           </form>
         </div>
@@ -376,7 +376,7 @@
         <a href="https://www.extra.com.br/"><img class="img-fluid" src="assets/img/logo-extra.png" alt=""></a>
         
         <div class="mt-4 mx-4">
-          <a class="btn btn-primary btn-rosa-borda form-control" href="https://www.extra.com.br/" role="button">IR A LOJA</a>
+          <a class="btn btn-primary btn-rosa form-control" href="https://www.extra.com.br/" role="button">IR A LOJA</a>
         </div>
       </div>
     </div>

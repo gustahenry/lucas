@@ -59,7 +59,12 @@ body{
 .form-custom{
 	border-radius: 0;
 }
-.btn-custom{
+.btn-transparent{
+	background-color: transparent;
+	color: #fff;
+	border-color: #fff;
+}
+.btn-transparent:hover{
 	background-color: #fff;
 	color: #222;
 	border-color: #fff;
@@ -85,16 +90,6 @@ body{
 	border-color: #ed145b;
 }
 .btn-rosa-borda:hover{
-	background-color: #ed145b;
-	color: #fff;
-	border-color: #ed145b;
-}
-.btn-transparent{
-	background-color: transparent;
-	color: #fff;
-	border-color: #fff;
-}
-.btn-transparent:hover{
 	background-color: #ed145b;
 	color: #fff;
 	border-color: #ed145b;
