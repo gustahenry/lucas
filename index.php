@@ -34,7 +34,7 @@
   </div>
 
   <div class="home" id="home">
-    <img class="img-fluid" style="width: 30rem; margin-top: 7rem; margin-left: 37rem;" src="assets/img/lucas-e-amanda.svg" alt="">
+    <img class="img-fluid img-home" src="assets/img/lucas-e-amanda.svg" alt="">
   </div>
   <div class="data text-center py-5">
   <div class="container">

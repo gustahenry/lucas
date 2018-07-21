@@ -143,6 +143,11 @@ body{
 	  background-attachment: none;
 	  background-size: cover;
 }
+	.img-home{
+		width: 30rem;
+		margin-top: 7rem;
+		margin-left: 37rem;
+	}
 }
 @media screen and (max-width: 768px){
   .home{
@@ -163,6 +168,10 @@ body{
 	  background-attachment: none;
 	  background-size: cover;
 }
+	.img-home{
+		width: 26rem;
+		margin: 15rem 2rem 0 2rem;
+	}
 }
 @media screen and (max-width: 320px){
   .home{
@@ -173,4 +182,8 @@ body{
 	  background-attachment: none;
 	  background-size: cover;
 }
+	.img-home{
+		width: 19rem;
+		margin: 17rem 0.5rem 0 0.5rem;
+	}
 }
