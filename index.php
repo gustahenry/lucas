@@ -19,6 +19,9 @@
             <a class="nav-link" href="#fotos">FOTOS</a>
           </li>
           <li class="nav-item active">
+            <a class="nav-link" href="#mensagem">MENSAGEM</a>
+          </li>
+          <li class="nav-item active">
             <a class="nav-link" href="#presenca">CONFIRMAR PRESENÇA</a>
           </li>
           <li class="nav-item active">
@@ -179,7 +182,78 @@
   </div>
 </div>
 
-<div class="presenca mt-5 py-5" id="presenca">
+<div class="mensagem mt-5 py-5" id="mensagem">
+    <div class="text-center pb-5">
+      <h2>DEIXE UMA MENSAGEM PARA NÓS</h2>
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 470.9 54.2" style="enable-background:new 0 0 470.9 54.2; width: 15rem;" xml:space="preserve">
+<style type="text/css">
+  .st0{fill:#ed145b;}
+</style>
+<g>
+  <path class="st0" d="M248.2,21.4c-0.2-0.7-0.6-1.4-1.1-2c-0.6-0.6-1.2-0.9-1.8-1.2c-1.2-0.6-2.8-0.8-4.1-0.4
+    c-2.6,0.8-4.1,2.7-5.4,4.4c-1.2,1.8-2.2,3.8-2.9,5.8c-0.6-1.9-1.6-3.8-3-5.4c-1.3-1.6-3.3-3.1-5.8-3.3c-1.2-0.1-2.4,0.1-3.6,0.5
+    c-0.7,0.2-1.4,0.8-1.9,1.4c-0.5,0.7-0.7,1.4-0.8,2.1c-0.3,2.7,0.4,4.7,1,6.8c1.4,4,3.4,7.6,5.4,11.2c2.1,3.5,4.3,6.9,6.7,10.3
+    l2,2.8l2-2.8c2.6-3.5,4.8-7.1,7-10.8c2.1-3.8,4.1-7.6,5.4-11.9C248.2,26.5,248.8,24.2,248.2,21.4z"/>
+  <g>
+    <g>
+      <path class="st0" d="M211.6,34.8c-3.5-2.6-7.3-4.7-11.2-6.4c-3.9-1.7-8-3-12.2-3.8c-4.2-0.9-8.4-1.3-12.6-1.3
+        c-4.2-0.1-8.4,0.5-12.8,1c-4.3,0.5-8.7,1-13,1.5c-4.3,0.5-8.7,1.1-13,1.7c-8.7,1.3-17.3,2.9-25.9,4.5c-8.6,1.6-17.4,2.8-26.1,3.5
+        c-8.8,0.7-17.6,1-26.5,0.4c-8.8-0.7-17.8-2.1-26.2-5.4c-4.2-1.5-8.2-3.7-11.9-6.3l-2.7-2.1c-0.9-0.7-1.6-1.6-2.4-2.3
+        c-1.7-1.5-2.9-3.4-4.2-5.2l0.4-0.3c3,3.1,6.4,5.9,10.1,7.9c3.7,2.1,7.7,3.7,11.8,4.8c8.2,2.4,16.7,3.5,25.3,4
+        c8.6,0.5,17.3,0.6,25.9,0.2c8.7-0.4,17.4-1,26.1-1.7c8.7-0.8,17.4-1.8,26-3.5c8.6-1.6,17.1-3.8,25.7-5.5
+        c8.6-1.7,18.1-1.9,26.7,0.6c8.7,2.3,16.9,6.7,22.9,13.2L211.6,34.8z"/>
+      <path class="st0" d="M15.3,5.5c0.5,0.9,0.7,1.6,0.3,2.5c-0.3,0.7-1.2,1.1-2,0.9c-1-0.2-1.4-0.9-1.8-1.8C11,5.2,14.2,3.6,15.3,5.5
+        z"/>
+      <path class="st0" d="M3.4,12.5c0.4,0.2,0.7,0.4,1,0.7c2.1,2.1-1.4,5-3,2.6c-0.1-0.2-0.3-0.4-0.4-0.6C0.2,13.5,1.7,11.8,3.4,12.5z
+        "/>
+      <path class="st0" d="M3.7,0.2c1.1,0.5,1.6,1.3,2.1,2.4C6.3,4,5.2,5.5,3.9,5.6c-1.5,0-2.5-0.4-3.4-1.7C-1.1,1.8,1.5-0.8,3.7,0.2z"
+        />
+    </g>
+    <g>
+      <path class="st0" d="M259,34.5c6.1-6.5,14.3-10.9,22.9-13.2c8.7-2.4,18.1-2.3,26.7-0.6c8.7,1.6,17.1,3.9,25.7,5.5
+        c8.6,1.6,17.3,2.7,26,3.5c8.7,0.7,17.4,1.3,26.1,1.7c8.7,0.4,17.3,0.3,25.9-0.2c8.6-0.4,17.2-1.6,25.3-4
+        c4.1-1.1,8.1-2.8,11.8-4.8c3.7-2.1,7.1-4.8,10.1-7.9l0.4,0.3c-1.3,1.7-2.5,3.7-4.2,5.2c-0.8,0.8-1.5,1.7-2.4,2.3l-2.7,2.1
+        c-3.7,2.5-7.7,4.8-11.9,6.3c-8.4,3.2-17.3,4.7-26.2,5.4c-8.9,0.6-17.7,0.3-26.5-0.4c-8.8-0.7-17.5-1.9-26.1-3.5
+        c-8.6-1.5-17.2-3.2-25.9-4.5c-4.3-0.7-8.7-1.2-13-1.7c-4.3-0.5-8.7-1-13-1.5c-4.3-0.5-8.6-1.1-12.8-1c-4.2,0-8.5,0.4-12.6,1.3
+        c-4.2,0.9-8.2,2.1-12.2,3.8c-3.9,1.7-7.8,3.8-11.2,6.4L259,34.5z"/>
+      <path class="st0" d="M455.6,5.5c-0.5,0.9-0.7,1.6-0.3,2.5c0.3,0.7,1.2,1.1,2,0.9c1-0.2,1.4-0.9,1.8-1.8
+        C459.8,5.2,456.6,3.6,455.6,5.5z"/>
+      <path class="st0" d="M467.4,12.5c-0.4,0.2-0.7,0.4-1,0.7c-2.1,2.1,1.4,5,3,2.6c0.1-0.2,0.3-0.4,0.4-0.6
+        C470.6,13.5,469.2,11.8,467.4,12.5z"/>
+      <path class="st0" d="M467.2,0.2c-1.1,0.5-1.6,1.3-2.1,2.4c-0.5,1.3,0.6,2.8,1.9,2.9c1.5,0,2.5-0.4,3.4-1.7
+        C471.9,1.8,469.4-0.8,467.2,0.2z"/>
+    </g>
+  </g>
+</g>
+</svg>
+    </div>
+
+    <div class="container">
+      
+              <?php
+                $msgs = $_GET['msgs'];
+                if($msgs=='sucesso'){echo '<p class="text-custom font-weight-bold text-center">Sua mensagem foi enviada.</p>';}
+                if($msgs=='erro'){echo '<p class="text-custom font-weight-bold text-center">Não conseguimos enviar sua mensagem, tente novamente.</p>';}
+              ?>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-12">
+          <form method="post" action="mensagem.php">
+              <div class="form-group" id="campo">
+                <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Escreve aqui a sua mensagem" cols="30" rows="10"></textarea>
+              </div>
+            
+            <div class="row justify-content-center pb-5">
+              <div class="col-md-6 col-sm-12 my-1"><button type="submit" class="btn btn-primary form-control btn-rosa-borda">ENVIAR</button></div>
+            </div>   
+          </form>
+        </div>
+      </div>
+    </div> 
+</div>
+
+<div class="presenca py-5" id="presenca">
     <div class="text-center pb-5">
       <h2>CONFIRME SUA PRESENÇA</h2>
       <img style="width: 15rem;" src="assets/img/coracao.svg" alt="">
