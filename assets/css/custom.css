@@ -164,8 +164,8 @@ body{
 	  background-size: cover;
 }
 	.img-home{
-		width: 26rem;
-		margin: 15rem 2rem 0 2rem;
+		width: 90%;
+		margin: 15rem 5% 0 5%;
 	}
 }
 @media screen and (max-width: 320px){
