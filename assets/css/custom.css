@@ -178,7 +178,7 @@ body{
 	  background-size: cover;
 }
 	.img-home{
-		width: 19rem;
-		margin: 17rem 0.5rem 0 0.5rem;
+		width: 90%;
+		margin: 17rem 5% 0 5%;
 	}
 }
