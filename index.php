@@ -1,4 +1,14 @@
-<?php require_once('header.php') ?>
+<?php
+require_once('header.php');
+require_once('database.php');
+$sql = "select * from setting";
+$res = mysqli_query($con,$sql);
+  while($f = mysqli_fetch_array($res)){
+  $dia = $f['dia'];
+  $mes = $f['mes'];
+  $ano = $f['ano'];
+}
+?>
 <body>
 
     <div class="container">
@@ -61,9 +71,13 @@
 
     <script type="text/javascript">
 
+      var ano = <?php echo $ano; ?>;
+      var mes = <?php echo $mes; ?>;
+      var dia = <?php echo $dia; ?>;
+
       function countdown(){
         var now = new Date();
-        var eventDate = new Date(2018, 07, 24);
+        var eventDate = new Date(ano, mes, dia);
 
         var currentTiime = now.getTime();
         var eventTime = eventDate.getTime();
@@ -398,4 +412,4 @@
     </div>
   </div>
   
-<?php require_once('footer.php') ?>
+<?php require_once('footer.php'); ?>
