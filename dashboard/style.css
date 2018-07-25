@@ -25,8 +25,8 @@
 	border: 1px solid #eee;
 	border-radius: 5px;
 	color: #000;
-	margin: 0.5rem;
-	height: 10rem;
+	padding: 0.5rem;
+	min-height: 10rem;
 }
 .box-msg p{
 	padding: 0.3rem;

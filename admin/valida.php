@@ -8,7 +8,7 @@ $btnLogin = filter_input(INPUT_POST, 'btnLogin', FILTER_SANITIZE_STRING);
 
 	if((!empty($usuario)) AND (!empty($senha))){
 		//Gerar a senha criptografa
-		echo password_hash($senha, PASSWORD_DEFAULT);
+		//echo password_hash($senha, PASSWORD_DEFAULT);
 		//Pesquisar o usuÃ¡rio no BD
 		$result_usuario = "SELECT id, nome, email, senha FROM usuario WHERE email='$usuario' LIMIT 1";
 		$resultado_usuario = mysqli_query($con, $result_usuario);
@@ -18,6 +18,7 @@ $btnLogin = filter_input(INPUT_POST, 'btnLogin', FILTER_SANITIZE_STRING);
 				$_SESSION['id'] = $row_usuario['id'];
 				$_SESSION['nome'] = $row_usuario['nome'];
 				$_SESSION['email'] = $row_usuario['email'];
+				$_SESSION['senha'] = $row_usuario['senha'];
 				header("Location: ../dashboard/dashboard.php");
 			}else{
 				$_SESSION['msg'] = "Login e senha incorreto!";

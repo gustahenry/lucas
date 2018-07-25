@@ -1,5 +1,13 @@
 <?php
 session_start();
+if((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true))
+{
+  unset($_SESSION['email']);
+  unset($_SESSION['senha']);
+  $_SESSION['msg'] = "Você precisa estar logado.";
+  header('location:../admin/');
+  }
+$nome = $_SESSION['nome'];
 require_once('../database.php');
 $sql = "select * from setting";
 $res = mysqli_query($con,$sql);
@@ -27,6 +35,7 @@ $res = mysqli_query($con,$sql);
   <body>
   <div class="row">
     <div class="col-md-3 menu">
+        <p>Bem vindo <?php echo $nome ?></p>
         <ul class="nav flex-column">
           <li class="nav-item">
             <a class="nav-link active" href="dashboard.php">Dashboard</a>
