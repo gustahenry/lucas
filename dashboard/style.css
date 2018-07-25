@@ -17,6 +17,20 @@
 	background-color: #ccc;
 	color: #fff;
 }
+.caixa{
+	padding: 2rem 2rem;
+}
+.box-msg{
+	background-color: #eee;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	color: #000;
+	margin: 0.5rem;
+	height: 10rem;
+}
+.box-msg p{
+	padding: 0.3rem;
+}
 .setting{
 	background-color: #eee;
 	width: 100%;

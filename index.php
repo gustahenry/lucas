@@ -255,6 +255,9 @@ $res = mysqli_query($con,$sql);
         <div class="col-md-6 col-sm-12">
           <form method="post" action="mensagem.php">
               <div class="form-group" id="campo">
+                <input type="text" class="form-control form-custom" id="nome" name="nome" placeholder="Seu Nome">
+              </div>
+              <div class="form-group" id="campo">
                 <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Escreve aqui a sua mensagem" cols="30" rows="10"></textarea>
               </div>
             
